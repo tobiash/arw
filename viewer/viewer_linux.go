@@ -1,13 +1,14 @@
-package arw
+package viewer
 
 import (
 	"fmt"
-	"github.com/gotk3/gotk3/gdk"
-	"github.com/gotk3/gotk3/gtk"
 	"image"
 	"log"
 	"os"
 	"time"
+
+	"github.com/gotk3/gotk3/gdk"
+	"github.com/gotk3/gotk3/gtk"
 )
 
 func display(img *image.RGBA, fileName, lensName string, focalLength float32, aperture float32, iso int, shutter time.Duration) {

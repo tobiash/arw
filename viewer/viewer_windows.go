@@ -1,11 +1,12 @@
-package arw
+package viewer
 
 import (
-	"github.com/nfnt/resize"
 	"image"
 	"log"
 	"syscall"
 	"unsafe"
+
+	"github.com/nfnt/resize"
 )
 
 var (
